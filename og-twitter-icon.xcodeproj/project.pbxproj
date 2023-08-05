@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D91535792A7ECA4B00D30C45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91535782A7ECA4B00D30C45 /* AppDelegate.m */; };
-		D915357F2A7ECA4B00D30C45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D915357E2A7ECA4B00D30C45 /* ViewController.m */; };
 		D91535842A7ECA4C00D30C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91535832A7ECA4C00D30C45 /* Assets.xcassets */; };
 		D915358A2A7ECA4C00D30C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91535892A7ECA4C00D30C45 /* main.m */; };
 /* End PBXBuildFile section */
@@ -17,8 +16,6 @@
 		D91535742A7ECA4B00D30C45 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91535772A7ECA4B00D30C45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D91535782A7ECA4B00D30C45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D915357D2A7ECA4B00D30C45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D915357E2A7ECA4B00D30C45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D91535832A7ECA4C00D30C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91535882A7ECA4C00D30C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D91535892A7ECA4C00D30C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,8 +53,6 @@
 			children = (
 				D91535772A7ECA4B00D30C45 /* AppDelegate.h */,
 				D91535782A7ECA4B00D30C45 /* AppDelegate.m */,
-				D915357D2A7ECA4B00D30C45 /* ViewController.h */,
-				D915357E2A7ECA4B00D30C45 /* ViewController.m */,
 				D91535832A7ECA4C00D30C45 /* Assets.xcassets */,
 				D91535882A7ECA4C00D30C45 /* Info.plist */,
 				D91535892A7ECA4C00D30C45 /* main.m */,
@@ -133,7 +128,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D915357F2A7ECA4B00D30C45 /* ViewController.m in Sources */,
 				D91535792A7ECA4B00D30C45 /* AppDelegate.m in Sources */,
 				D915358A2A7ECA4C00D30C45 /* main.m in Sources */,
 			);
