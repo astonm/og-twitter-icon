@@ -7,22 +7,15 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
-
-@end
-
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (void)applicationDidBecomeActive:(UIApplication *)application {
     NSURL *twitterAppURL = [NSURL URLWithString:@"twitter://"];
     
     BOOL canOpenTwitter = [[UIApplication sharedApplication] canOpenURL:twitterAppURL];
     if (canOpenTwitter) {
         [[UIApplication sharedApplication] openURL:twitterAppURL options:@{} completionHandler:nil];
     }
-
-    exit(0);
 }
 
 @end
